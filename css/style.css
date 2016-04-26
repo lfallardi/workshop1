@@ -1,0 +1,186 @@
+/* ---- ELEMENTOS ---- */
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	background-color: #000312;
+	color: #FFF;
+	height: 40px;
+}
+
+ul li{
+	display: inline-block;
+	padding-left: 10px;
+}
+
+h1{
+	display: inline-block;
+}
+
+a{
+	text-decoration: none;
+	color: #FFF;
+	font-size: 12px;
+}
+
+input[type="submit"]{
+	background-color: #000312;
+	color: #FFF;
+	border: none;
+	margin: auto;
+	text-transform: uppercase;
+	display: block;
+	margin-top: 20px;
+	padding: 10px 40px;
+}
+
+footer{
+	background-color: #000312;
+	height: 40px;
+}
+
+/* ---- FIN ELEMENTOS ---- */
+
+/* ---- CLASES UNICAS ---- */
+.contenedor{
+	max-width: 900px;
+	width: 90%;
+	margin: auto;
+}
+
+.bajocontenedor{
+	padding-top: 10px;
+}
+
+.menu_ppal{
+	display: inline-block;
+	float: right;
+	vertical-align: top;
+}
+
+#nombre{
+	background-color: #545766;
+	background-size: cover;
+	height: 500px;
+	color: #FFF;
+	padding-top: 80px;
+	text-align: center;
+}
+
+.galeria{
+	display: inline-block;
+    padding-top: 20px;
+    padding-left: 80px;
+    padding-bottom: 20px;
+}
+
+.parrafos_about{
+	display: flex;
+	flex-flow: row warp;
+	justify-content: space-around;
+}
+
+.text_about{
+    margin: 2%;	
+    color: #FFF;
+    line-height: 18px;
+    font-size: 16px;
+}
+
+.cuadro{
+    box-sizing: border-box;	
+    margin: 10px;
+	padding: 10px;
+	width: 100%;
+}
+
+.copyright h1{
+	color: #FFF;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    padding: 15px;
+	text-align: center;
+}
+
+#footer_info{
+	background-color: #545766;
+	height: 150px;
+	margin-top: 15px;
+	color: #FFF;
+}
+
+.data_adic{
+	display: block;
+	text-align: center;
+}
+
+.socialnetwork{
+    font-size: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;    
+}
+
+/* ---- FIN CLASES UNICAS ---- */
+
+/* ---- CLASES + ELEMENTOS ---- */
+
+#nombre .contenedor h1{
+	font-family: 'Open sans', sans-serif;
+	font-size: 16px;
+	padding-top: 10px;
+}
+
+#nombre .contenedor p{
+	font-family: 'Open sans', sans-serif;
+	font-weight: 300;
+	font-size: 12px;
+	padding-top: 10px;	
+}
+
+#nombre .contenedor div img{
+	border-radius: 100%;
+}
+
+#portfolio .contenedor h1{
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 10px;
+}
+
+#about{
+	background-color: #545766;
+	background-size: cover;
+	height: 350px;
+	color: #FFF;
+}
+
+#about h1{
+	display: block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 600;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#contact h1{
+	display: block;
+	text-align: center;
+	padding: 30px;
+	font-weight: 600;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+/* ---- FIN CLASES + ELEMENTOS ---- */
